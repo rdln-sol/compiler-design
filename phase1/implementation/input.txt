@@ -1,0 +1,4 @@
+int _i = 123;
+float _j = 123.;
+print("i + j = ");
+print(_i + _j); //calculates the sum of i and j
