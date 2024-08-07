@@ -3,8 +3,8 @@
 This repository contains the first part of a lexer implementation in Python. The lexer is designed to tokenize a simple programming language, identifying various elements such as operators, keywords, separators, identifiers, integers, floats, and strings. This document provides an overview of the code and instructions for running the lexer on an input file.
 
 ## Authors
-- اردلان سلطانزاده (400407014)
-- سپهر بزمی (400405019)
+- Sepehr Bazmi
+- Ardalan SoltanZadeh
 
 ## Overview
 
