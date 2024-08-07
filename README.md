@@ -47,6 +47,28 @@ is to recognize and extract the smallest meaningful units of the programming lan
 ### Operators
 
 ![Logical Operator](https://raw.githubusercontent.com/rdln-sol/compiler-design/main/Static/logical-operator.png)
+![Logical Operator](https://raw.githubusercontent.com/rdln-sol/compiler-design/main/Static/mathematical-operator.png)
+
+### Identifiers
+
+![Logical Operator](https://raw.githubusercontent.com/rdln-sol/compiler-design/main/Static/identifiers.png)
+
+### Keywords
+
+![Logical Operator](https://raw.githubusercontent.com/rdln-sol/compiler-design/main/Static/keywords.png)
+
+### Strings
+
+![Logical Operator](https://raw.githubusercontent.com/rdln-sol/compiler-design/main/Static/string.png)
+
+### Numbers
+
+![Logical Operator](https://raw.githubusercontent.com/rdln-sol/compiler-design/main/Static/number.png)
+
+### Comment
+
+![Logical Operator](https://raw.githubusercontent.com/rdln-sol/compiler-design/main/Static/comment.png)
+
 
 
 
