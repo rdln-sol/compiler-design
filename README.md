@@ -46,8 +46,9 @@ is to recognize and extract the smallest meaningful units of the programming lan
 
 ### Operators
 
-![Sample Image](main/Static/logical-operator)
-![Sample Image](main/Static/mathematical-operator)
+![Logical Operator](https://raw.githubusercontent.com/rdln-sol/compiler-design/main/Static/logical-operator.png)
+
+
 
 
 # Parser Implementation (Part 2)
