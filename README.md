@@ -102,6 +102,20 @@ The action table defines what action to take based on the current state and the 
 | 20          |            |            |            | S,4        |            | R,1        |
 | 21          |            |            |            |            | R,2        | R,2        |
 
+## Goto Table
+
+The Goto table defines the state transitions based on the current state and the non-terminal being processed.
+
+| State/Non-terminal | S  | E  | T  |
+|--------------------|----|----|----|
+| 0                  | 1  | 20 | 18 |
+| 2                  | 3  | 18 |    |
+| 4                  |    |    | 5  |
+| 6                  | 7  | 8  | 10 |
+| 9                  |    | 14 | 10 |
+| 11                 | 12 | 8  | 10 |
+| 15                 |    |    | 21 |
+
 
 
 
