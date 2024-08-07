@@ -73,6 +73,11 @@ The grammar rules used by the parser are defined as follows:
 | 4       | T            | T → ( S )                             |
 | 5       | T            | T → int                               |
 
+
+
+Converting an LR(1) DFA to a parsing table is an essential step in building an LR(1) parser. The parsing table provides a concise representation of 
+the DFA's state transitions and the corresponding parsing actions to be taken based on the current state and lookahead symbol :
+
 ## Action Table
 
 The action table defines what action to take based on the current state and the lookahead token. 
