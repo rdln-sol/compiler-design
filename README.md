@@ -46,8 +46,8 @@ is to recognize and extract the smallest meaningful units of the programming lan
 
 ### Operators
 
-![Sample Image](Static/logical-operator)
-![Sample Image](Static/mathematical-operator)
+![Sample Image](tree/main/Static/logical-operator)
+![Sample Image](tree/main/Static/mathematical-operator)
 
 
 # Parser Implementation (Part 2)
