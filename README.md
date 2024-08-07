@@ -1,10 +1,16 @@
 # Lexer and Parser Implementation using Python
+This project involves the development of a lexer and parser using Python, aimed at providing foundational components for a compiler or interpreter. The primary goals are to implement a lexical analyzer (lexer) that tokenizes input strings based on predefined rules and a parser that performs syntax analysis using LR(1) parsing techniques.
 
-## Authors
+### Authors
 - Sepehr Bazmi
 - Ardalan SoltanZadeh
 
-# Lexer Implementation (Part 1)
+### Objectives 
+- **Implement a Lexer:** Develop a lexer to tokenize input strings based on predefined rules for operators, keywords, identifiers, and other components.
+- **Develop an LR(1) Parser:** Construct an LR(1) parser to analyze and validate the syntax of tokenized input strings using LR(1) parsing techniques.
+- **Visualization:** Provide visual diagrams to aid in understanding the lexer and parser components, including NFAs, DFAs, and parsing tables.
+
+## Lexer Implementation (Part 1)
 
 The lexer processes an input string and categorizes its components into tokens. The primary elements identified by the lexer include:
 
