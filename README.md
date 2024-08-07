@@ -73,6 +73,36 @@ The grammar rules used by the parser are defined as follows:
 | 4       | T            | T → ( S )                             |
 | 5       | T            | T → int                               |
 
+## Action Table
+
+The action table defines what action to take based on the current state and the lookahead token. 
+
+| State/Token | int        | (          | )          | +          | *          | $          |
+|-------------|------------|------------|------------|------------|------------|------------|
+| 0           | S,17       | S,6        |            |            |            |            |
+| 1           |            |            |            | S,2        |            | - , Accept |
+| 2           | S,17       | S,6        |            |            | S,4        |            |
+| 3           |            |            | R,0        | R,0        | S,4        | R,0        |
+| 4           | S,17       | S,6        |            |            |            |            |
+| 5           |            |            | R,2        | R,2        |            |            |
+| 6           | S,16       | S,11       |            |            |            |            |
+| 7           |            |            |            | S,9        |            | S,19       |
+| 8           |            |            | R,1        |            | S,15       | R,1        |
+| 9           | S,16       | S,11       |            |            |            |            |
+| 10          |            |            | R,3        | R,3        |            | R,3        |
+| 11          | S,16       | S,11       |            |            |            |            |
+| 12          |            |            |            | S,9        |            | S,13       |
+| 13          |            |            | R,4        | R,4        |            | R,4        |
+| 14          |            |            | R,0        | S,15       |            | R,0        |
+| 15          | S,16       | S,11       |            |            |            |            |
+| 16          |            |            | R,5        | R,5        |            | R,5        |
+| 17          |            |            | R,5        | R,5        |            | R,5        |
+| 18          |            |            | R,3        | R,3        |            | R,3        |
+| 19          |            |            | R,4        | R,4        |            | R,4        |
+| 20          |            |            |            | S,4        |            | R,1        |
+| 21          |            |            |            |            | R,2        | R,2        |
+
+
 
 
 
