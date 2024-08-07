@@ -1,7 +1,7 @@
 ## Authors
 - Sepehr Bazmi
 - Ardalan SoltanZadeh
-- 
+
 # Lexer Implementation (Part 1)
 
 The lexer processes an input string and categorizes its components into tokens. The primary elements identified by the lexer include:
