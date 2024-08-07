@@ -54,6 +54,9 @@ is to recognize and extract the smallest meaningful units of the programming lan
 ![Logical Operator](https://raw.githubusercontent.com/rdln-sol/compiler-design/main/Static/identifiers.png)
 
 ### Keywords
+We wont include the Keyword NFA in the Main 
+NFA for the reason mentioned below :
+The program identifies all the keywords as Identifiers then, if the lexeme is a keyword, It would return it as a keyword, if not it would be returned as an identifier.
 
 ![Logical Operator](https://raw.githubusercontent.com/rdln-sol/compiler-design/main/Static/keywords.png)
 
@@ -66,10 +69,30 @@ is to recognize and extract the smallest meaningful units of the programming lan
 ![Logical Operator](https://raw.githubusercontent.com/rdln-sol/compiler-design/main/Static/number.png)
 
 ### Comment
+To reduce the lookahead of the main NFA or 
+DFA comments are excluded from the main
+NFA or DFA.
 
 ![Logical Operator](https://raw.githubusercontent.com/rdln-sol/compiler-design/main/Static/comment.png)
 
+# Main NFA
+Now that we created an NFA for each token, we combine them to create the Main NFA of the scanner :
+Note that, Keyword and comment are not present in the Main NFA, the reasoning behind this decision Is mentioned above where their standalone NFA were created.
 
+![Logical Operator](https://raw.githubusercontent.com/rdln-sol/compiler-design/main/Static/NFA.png)
+
+Now that we have a complete NFA to work with It is more efficient to Convert it to a DFA Before starting it’s programming Therefore we will use an algorithm knows as The epsilon-closure to create a DFA with the main NFA.
+this NFA needs to be converted into a DFA.
+
+# Main DFA
+
+Each square is a combination of several states That where generated through the epsilonclosure process. You can determine which states are in these combinations by looking up the epsilon closure process in the previous page. 
+For example : 
+the state `A` in this DFA contains
+`{1,2,11,12,13,18,30,31,34,37,40,44,45,47,49,51,
+53,56,57,59,61,63,65,58 }` from the main NFA
+
+![Logical Operator](https://raw.githubusercontent.com/rdln-sol/compiler-design/main/Static/DFA.png)
 
 
 
