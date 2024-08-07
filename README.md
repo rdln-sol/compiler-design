@@ -63,7 +63,7 @@ allowing it to build a valid parse tree for the input string.
 
 The grammar rules used by the parser are defined as follows:
 
-|---------|--------------|---------------------------------------|
+
 | Rule ID | Non-terminal | Production                            |
 |---------|--------------|---------------------------------------|
 | 0       | S            | S → S + E                             |
@@ -72,7 +72,7 @@ The grammar rules used by the parser are defined as follows:
 | 3       | E            | E → T                                 |
 | 4       | T            | T → ( S )                             |
 | 5       | T            | T → int                               |
-|---------|--------------|---------------------------------------|
+
 
 
 
