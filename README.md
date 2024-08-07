@@ -38,11 +38,7 @@ The lexer assigns a specific class to each token it identifies. These classes in
 - `STRING`
 - `ERROR`
 
-## Code
-
-The core of the lexer is implemented in the `lex` function, which processes an input string and returns a list of tokens. The function handles various language constructs, including comments, whitespace, operators, separators, keywords, identifiers, numbers, and strings.
-
-### Lexer Function
+## Lexer Function
 
 A lexical analyzer, also known as a scanner or tokenizer, is a component of a compiler that breaks down the source code into a sequence of 
 tokens. Its purpose is to recognize and extract the smallest meaningful units of the programming language, such as keywords, identifiers, 
