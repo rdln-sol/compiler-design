@@ -44,6 +44,11 @@ to identify and classify different tokens. These rules are typically specified t
 It also known as a scanner or tokenizer, is a component of a compiler that breaks down the source code into a sequence of tokens. Its purpose 
 is to recognize and extract the smallest meaningful units of the programming language, such as keywords, identifiers, literals, and operators.
 
+###LOperators
+![Sample Image](./Static/logical-operator)
+![Sample Image](./Static/mathematical-operator)
+
+
 # Parser Implementation (Part 2)
 
 LR(1) parsing is a bottom-up parsing technique used to analyze and validate the syntax of a programming language or any other context-free 
