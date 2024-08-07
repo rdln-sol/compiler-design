@@ -111,6 +111,10 @@ based on the current input symbol, while reduce actions involve applying a produ
 Overall, the LR(1) parser uses the LR(1) DFA to determine the appropriate parsing actions based on the current state and the lookahead symbol, 
 allowing it to build a valid parse tree for the input string.
 
+## LR1 DFA
+
+![Logical Operator](https://raw.githubusercontent.com/rdln-sol/compiler-design/main/Static/LR1.png)
+
 ## Grammar Rules
 
 The grammar rules used by the parser are defined as follows:
